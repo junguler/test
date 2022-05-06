@@ -27,5 +27,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: apt install aria2c
-      run: apt list --installed > test.txt
+      run: apt install aria2c ; apt list --installed > test.txt
