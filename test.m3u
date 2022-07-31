@@ -1,0 +1,8 @@
+#EXTM3U
+#PLAYLIST: teest
+#EXTINF:0 test 1
+1.mp3
+#EXTINF:0 test 2
+2.mp3
+#EXTINF:0 test 3
+3.mp3
