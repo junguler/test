@@ -1,8 +1,28 @@
 <meta charset=utf-8>
 <html>
-<body>
 <title>Listen to the world playlist</title>
+<body>
+<style>
+.grid {
+display: grid;
+grid-template-columns: repeat(4, 100px);
+grid-auto-rows: 36px;
+}
+span {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+a {
+text-align: center;
+}
+</style>
+<span>
+<div class="grid">
 <a href="./1.html">test 1</a><br><br>
 <a href="./2.html">test 2</a>
+</div>
+</span>
 </body>
 </html>
