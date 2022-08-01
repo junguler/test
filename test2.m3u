@@ -1,8 +1,12 @@
 #EXTM3U
 #PLAYLIST: test2
 #EXTINF:0
-4.mp4
+480p.mp4
 #EXTINF:0
-5.mp4
+vert.mp4
 #EXTINF:0
-6.mp4
+1080p.mp4
+#EXTINF:0
+4x3.mp4
+#EXTINF:0
+720p.mp4
