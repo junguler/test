@@ -23,3 +23,7 @@ video {
 width: auto;
 height: 480px;
 }
+
+.m3u-player--left, .m3u-player--right, .m3u-player--title {
+font-size: 200%;
+}
