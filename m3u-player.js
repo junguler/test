@@ -259,8 +259,8 @@ title.classList.add("m3u-player--title");
 title.style.overflow = "hidden";
 title.style.textOverflow = "ellipsis";
 title.style.whiteSpace = "nowrap";
-title.style.opacity = "1";
-title.style.direction = "rtl"; // for truncation on the left
+// title.style.opacity = "1";
+// title.style.direction = "rtl"; // for truncation on the left
 // title.style.paddingLeft = "0.5em";
 // title.style.paddingRight = "0.5em";
 controls.style.display = "flex";
