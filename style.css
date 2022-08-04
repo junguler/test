@@ -15,8 +15,8 @@ transform: translate(-50%, -50%);
 }
 
 audio {
-width: 640px;
-height: 52px;
+width: 1000px;
+/* height: 52px; */
 }
 
 video {
@@ -26,4 +26,19 @@ height: 480px;
 
 .m3u-player--left, .m3u-player--right, .m3u-player--title {
 font-size: 200%;
+appearance: none;
 }
+
+.m3u-player--left, .m3u-player--right {
+    cursor: pointer;
+}
+
+button .m3u-player--left  {
+width: 60px;
+
+}
+
+/* .m3u-player--left:hover, .m3u-player--right:hover {
+color: #333; 
+background-color: #ccc;
+} */
