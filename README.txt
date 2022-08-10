@@ -9,3 +9,4 @@ long term goal is to make the playlist button look completely native to firefox'
 
 
 everything in this repo is from royalty free videos of youtube, no copyright was harmed, this is just a test page
+
