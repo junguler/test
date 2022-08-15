@@ -6,35 +6,35 @@
 
 /* Start: Show/Hide Playlist*/
 .mejs-controls .mejs-show-playlist button {
-  background: transparent url('controls-playlist.png') no-repeat;
+  background: transparent url(/test/test5/controls-playlist.png) no-repeat;
   background-position: -16px -16px;
 }
 .mejs-controls .mejs-hide-playlist button {
-  background: transparent url('controls-playlist.png') no-repeat;
+  background: transparent url(/test/test5/controls-playlist.png) no-repeat;
   background-position: -16px 0;
 }
 /* End: Show/Hide Playlist */
 
 /* Start: Previous */
 .mejs-controls .mejs-prevtrack button {
-  background: transparent url('controls-playlist.png') no-repeat;
+  background: transparent url(/test/test5/controls-playlist.png) no-repeat;
   background-position: 0 -16px;
 }
 /* End: Previous */
 
 /* Start: Next */
 .mejs-controls .mejs-nexttrack button {
-  background: transparent url('controls-playlist.png') no-repeat;
+  background: transparent url(/test/test5/controls-playlist.png) no-repeat;
 }
 /* End: Next */
 
 /* Start: Shuffle */
 .mejs-controls .mejs-shuffle-on button {
-  background: transparent url('controls-playlist.png') no-repeat;
+  background: transparent url(/test/test5/controls-playlist.png) no-repeat;
   background-position: -32px 0;
 }
 .mejs-controls .mejs-shuffle-off button {
-  background: transparent url('controls-playlist.png') no-repeat;
+  background: transparent url(/test/test5/controls-playlist.png) no-repeat;
   background-position: -32px -16px;
 }
 /* End: Shuffle */
