@@ -10,4 +10,6 @@ here is a summery of what i've done to this point:
 
 [test 5](https://junguler.github.io/test/test5/test5.html) - using a audio/video player plugin for [mediaelement](https://www.mediaelementjs.com/) to embed a few radio streams to a audio player, i've used code from [this fork](https://github.com/duozersk/mep-feature-playlist) and [this fork](https://github.com/xitobg/mediaelement-playlist-plugin/tree/master/lib/mediaelement)
 
+if the music from online radio stations are not playign it's probably because you are using a chromium based web browser (chrome, vivaldi, opera, edge etc ...), [check here](https://support.google.com/chrome/thread/29505473?hl=en&msgid=29673696) for a workaround
+
 more example pages are going to be added as i discover more html5 players that i like to test
