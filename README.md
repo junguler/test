@@ -14,4 +14,4 @@ if the music from online radio stations are not playing it's probably because yo
 
 more example pages are going to be added as i discover more html5 players that i like to test
 
-and eventual cleaning up and publishing these pages on a different repo is in the works but things are going to be messy for the time being as i'm actively testing things
+an eventual cleaning up and publishing of these pages on a different repo is in the works but things are going to be messy for the time being as i'm actively testing things
