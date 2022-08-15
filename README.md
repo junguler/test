@@ -1,6 +1,6 @@
 here is a summery of what i've done to this point:
 
-[test 1](https://junguler.github.io/test/1.html) - it uses a [js code](https://www.draketo.de/software/m3u-player.js) i've [found online](https://www.draketo.de/software/m3u-player.html) to embed multi-track streams to a audio or video tag, effectively making a playlist
+[test 1](https://junguler.github.io/test/1.html) - it uses a [js code](https://www.draketo.de/software/m3u-player.js) i've [found online](https://www.draketo.de/software/m3u-player.html) to embed multi-track .m3u streams to a audio or video tag, effectively making a playlist
 
 [test 2](https://junguler.github.io/test/2.html) - use the same code as test 1 but applied to videos
 
