@@ -13,3 +13,5 @@ here is a summery of what i've done to this point:
 if the music from online radio stations are not playing it's probably because you are using a chromium based web browser (chrome, vivaldi, opera, edge etc ...), [check here](https://support.google.com/chrome/thread/29505473?hl=en&msgid=29673696) for a workaround
 
 more example pages are going to be added as i discover more html5 players that i like to test
+
+and eventual cleaning up and publishing these pages on a different repo is in the works but things are going to be messy for the time being as i'm actively testing things
