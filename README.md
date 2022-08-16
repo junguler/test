@@ -12,7 +12,7 @@ here is a summery of what i've done to this point:
 
 [test 6](https://junguler.github.io/test/test6/test6.html) - a simple example of using the default player and applying playlists as list of clickable links, code was taken from [this repo](https://github.com/severak/html5-playlist)
 
-[test 7](https://junguler.github.io/test/test6/test6.html) - a simple and elegent way to embed songs to a playlist via json formatting, code was taken from [this repo](https://github.com/worldzhao/url-music-player)
+[test 7](https://junguler.github.io/test/test7/test7.html) - a simple and elegent way to embed songs to a playlist via json formatting, code was taken from [this repo](https://github.com/worldzhao/url-music-player)
 
 if the music from online radio stations are not playing it's probably because you are using a chromium based web browser (chrome, vivaldi, opera, edge etc ...), [check here](https://support.google.com/chrome/thread/29505473?hl=en&msgid=29673696) for a workaround
 
