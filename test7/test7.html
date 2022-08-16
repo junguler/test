@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>test 7</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="style/fonts.css">
+<link href="style/style.css" rel="stylesheet">
+<script type="text/javascript" src="js/manager.js"></script>
+<style>
+body {background: #222;}</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="play-wrapper">
+			<img class="cover" src="musical-notes.png">
+		    <audio class="music" controls="true" src="../audio/1.m4a">
+				   1.m4a
+			</audio>
+			<div class="detail">
+				<div class="info">
+					<div class="name">Maps</div>
+					<div class="singer">Marron 5</div>
+				</div>
+				<div class="controls">
+					<button class="ply-btn"><i class="icon-play"></i></button>
+					<div class="progressBar"><span class="progress"></span></div>
+					<div class="time"><span class="Ctime">0:00</span>/<span class="Ttime"></span></div>
+					<button class="noVol"><i class="icon-volume-medium"></i></button>
+					<div class="vol"><span class="nowVol"></span></div>
+					<button class="menu"><i class="icon-menu"></i></button>
+				</div>	
+			</div>
+		</div>
+         <div class="mode">
+            <span class="preSongBtn"><i class='icon-backward'></i></span>
+            <span class="nextSongBtn"><i class="icon-forward"></i></span>
+            <span class="playMode"><i class="icon-repeat"></i></span>
+        </div>
+		<div class="list">
+			<ul class="songContainer">
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	window.onload=function(){
+		new Controls({
+			songs:[             
+                    {
+                        src:'../audio/1.m4a',
+                        name:'1.m4a',
+                        author:'1.m4a',
+                        cover:'musical-notes.png'
+                    },
+                    {
+                        src:'../audio/2.mp3',
+                        name:'2.mp3',
+                        author:'2.mp3',
+                        cover:'headphones.png'
+                    },
+                    {
+                        src:'../audio/3.m4a',
+                        name:'3.m4a',
+                        author:'3.m4a',
+                        cover:'earbud-headphones.png'
+                    }
+                ]
+		});
+	}
+</script>
