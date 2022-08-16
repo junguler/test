@@ -1,0 +1,14 @@
+#EXTM3U
+#PLAYLIST: test2
+#EXTINF:0
+../video/480p.mp4
+#EXTINF:0
+../video/vert.mp4
+#EXTINF:0
+../video/1080p.mp4
+#EXTINF:0
+../video/21x9.mp4
+#EXTINF:0
+../video/4x3.mp4
+#EXTINF:0
+../video/720p.mp4

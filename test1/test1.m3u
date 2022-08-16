@@ -1,8 +1,8 @@
 #EXTM3U
 #PLAYLIST: teest
 #EXTINF:0
-1.m4a
+../audio/1.m4a
 #EXTINF:0
-2.mp3
+../audio/2.mp3
 #EXTINF:0
-3.m4a
+../audio/3.m4a
