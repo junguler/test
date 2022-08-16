@@ -6,42 +6,45 @@
 <title>html5 Playlist</title>
 
 <style>
-    body {
-        font-family: "Lucida Console", monospace;
-        background-color: #333;
-    }
+body {
+font-family: "Lucida Console", monospace;
+background-color: #333;
+padding: 5% 0% 0% 0%;
+}
 
-    .container {
-        width: 30em;
-        margin: auto;
-        padding: 1em;
-        background-color: #444;
-    }
+.container {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
 
-    audio {
-        width: 98%;
-    }
+li {
+list-style: none;
+}
 
-    li {
-        list-style: none;
-    }
+li a {
+text-decoration: none;
+color: #ccc;
+}
 
-    li a {
-        text-decoration: none;
-        color: #ccc;
-    }
+.current-track {
+background-color: black;
+color: #fff;
+}
 
-    .current-track {
-        background-color: black;
-        color: #fff;;
-    }
 </style>
 
 </head>
 <body>
     <div class="container">
 <audio src="../audio/1.m4a" controls data-playlist-id="my_playlist"></audio>
-
+</div><div class="container">
 <ul id="my_playlist">
     <li><a href="../audio/1.m4a">1.m4a</a></li>
     <li><a href="../audio/2.mp3">2.mp3</a></li>
