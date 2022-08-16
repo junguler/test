@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>html5 Playlist</title>
+
+<style>
+    body {
+        font-family: "Lucida Console", monospace;
+        background-color: #333;
+    }
+
+    .container {
+        width: 30em;
+        margin: auto;
+        padding: 1em;
+        background-color: #444;
+    }
+
+    audio {
+        width: 98%;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #ccc;
+    }
+
+    .current-track {
+        background-color: black;
+        color: #fff;;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+<audio src="../audio/1.m4a" controls data-playlist-id="my_playlist"></audio>
+
+<ul id="my_playlist">
+    <li><a href="../audio/1.m4a">1.m4a</a></li>
+    <li><a href="../audio/2.mp3">2.mp3</a></li>
+    <li><a href="../audio/3.m4a">3.m4a</a></li>
+</ul>
+</div>
+<script src="../js/html5-playlist.js"></script>
+
+</body>
+</html>
