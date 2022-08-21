@@ -14,6 +14,8 @@ here is a summery of what i've done to this point:
 
 [test 7](https://junguler.github.io/test/test7/test7.html) - a simple and elegent way to embed songs to a playlist via json formatting, code was taken from [this repo](https://github.com/worldzhao/url-music-player)
 
+[test 8](https://junguler.github.io/test/test8/test8.html) - another attempt to mess around with able player, this time i've added a scroll in the playlist section when it has many entries and tried to style the button a little bit to be more dark mode friendly
+
 if the music from online radio stations are not playing it's probably because you are using a chromium based web browser (chrome, vivaldi, opera, edge etc ...), [check here](https://support.google.com/chrome/thread/29505473?hl=en&msgid=29673696) for a workaround
 
 more example pages are going to be added as i discover more html5 players that i like to test

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Able Player Audio Demo #3</title>
+
+<!-- Dependencies -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/js.cookie.min.js"></script>
+<!-- Able Player CSS -->
+<link rel="stylesheet" href="../css/ableplayer.min.css" type="text/css"/>
+<!-- Able Player JavaScript -->
+<script src="../js/ableplayer.js"></script>
+
+	
+<style>
+
+/* https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically */
+
+.container {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+html, body {
+	background-color: #222;
+	columns: #ccc;
+}
+
+ul {
+	height: 264px;
+	overflow: auto;
+	padding: 0px !important;
+	background: #444 !important;
+}
+
+ul button {
+	color: #fff !important;
+	background-color: #222 !important;
+}
+
+ul button:hover {
+	color: orange !important;
+	background-color: #444 !important;
+}
+
+ul button:active, ul button:focus {
+	color: yellow !important;
+	background-color: #555 !important;
+}
+
+* {
+	scrollbar-width: thin;
+}
+
+</style>	
+	
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="column" style="width: 480px">
+
+	<audio id="audio2" class="ump-media" preload="auto" data-able-player>
+	</audio>
+
+	<div id="playlist">
+		<ul class="able-playlist" data-player="audio2">
+			<li>
+				<span class="able-source"
+					data-src="http://stream.dancewave.online:8080/dance.mp3"></span>
+				<button>Dance Wave! - 128 kbit/s</button>
+			</li>
+			<li>
+				<span class="able-source"
+					data-src="http://51.89.148.171:8022/stream/1/"></span>
+				<button>Dance UK Radio danceradiouk - 128 kbit/s</button>
+			</li>
+			<li>
+				<span class="able-source"
+					data-src="http://s2.radioparty.pl:8000/stream64aac"></span>
+				<button>Radioparty.pl - Dance, Club, Trance - 128 kbit/s</button>
+			</li>
+			<li>
+				<span class="able-source"
+					data-src="http://d.blyatflix.de:9000/stream/1/"></span>
+				<button>Radi4user - 128 kbit/s</button>
+			</li>
+			<li>
+				<span class="able-source"
+					data-src="http://198.100.145.187:18304/stream/1/"></span>
+				<button>C-Dance RETRO - 192 kbit/s</button>
+			</li>
+			<li>
+				<span class="able-source"
+					data-src="http://cast.magicstreams.gr:9111/stream/1/"></span>
+				<button>Psyndora Psytrance - 128 kbit/s</button>
+			</li>
+			<li>
+				<span class="able-source"
+					data-src="http://hirschmilch.de:7000/psytrance.mp3"></span>
+				<button>Hirschmilch Psytrance - 128 kbit/s</button>
+			</li>
+			<li>
+				<span class="able-source"
+					data-src="http://komplex2.psyradio.org:8010/stream/1/"></span>
+				<button>psyradio * fm - progressive - 128 kbit/s</button>
+			</li>
+			<li>
+				<span class="able-source"
+					data-src="http://fr.ah.fm:8000/stream/1/"></span>
+				<button>AH.FM - 192 kbit/s</button>
+			</li>
+			<li>
+				<span class="able-source"
+					data-src="http://evo.kennmer.net:8000/evosonic.mp3"></span>
+				<button>Evosonic Radio - 192 kbit/s</button>
+			</li>
+		</ul>
+	</div>
+
+</div>
+</div>
+</body>
+</html>
