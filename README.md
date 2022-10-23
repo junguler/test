@@ -16,6 +16,8 @@ here is a summery of what i've done to this point:
 
 [test 8](https://junguler.github.io/test/test8/test8.html) - another attempt to mess around with able player, this time i've added a scroll in the playlist section when it has many entries and tried to style the button a little bit to be more dark mode friendly
 
+[test 9](https://junguler.github.io/test/test9/test9.html) - implement a simple audio visualizer for a multiple stream m3u file, code was taken from [this repo](https://github.com/wayou/audio-visualizer-with-controls)
+
 if the music from online radio stations are not playing it's probably because you are using a chromium based web browser (chrome, vivaldi, opera, edge etc ...), [check here](https://support.google.com/chrome/thread/29505473?hl=en&msgid=29673696) for a workaround
 
 more example pages are going to be added as i discover more html5 players that i like to test

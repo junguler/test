@@ -1,0 +1,36 @@
+body {
+background:#222;
+color:#ccc;
+}
+
+canvas {
+padding-bottom: 6px;
+}
+
+.container{
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+/* border: 2px solid white; */
+}
+
+audio {
+width: 600px;
+}
+
+.m3u-player--left, .m3u-player--right {
+appearance: none;
+cursor: pointer;
+margin-left: auto;
+/* filter: invert(1); */
+}
+
+.m3u-player--title {
+margin: auto;
+appearance: none;
+width: 500px;
+text-align: center;
+}
